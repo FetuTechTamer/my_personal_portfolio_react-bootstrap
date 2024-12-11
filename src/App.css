@@ -1,12 +1,52 @@
+/***********navigation******/
+nav{
+  z-index: 0;
+}
 .navbar-nav .nav-link {
   padding: 10px 15px; 
   margin: 0 20px;
   border-radius: 5px; 
   transition: background-color 0.3s;
-  color: blue; /* Default text color */
+  color: blue;
 }
 
 .navbar-nav .nav-link:hover {
   background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
   color: #007bff; 
 }
+
+
+/***********header******/
+.Header-Wraper{
+  position: relative;
+  background: url(photo_5_2024-12-11_19-42-12.jpg);
+  background-size: cover;
+  background-position:center ;
+  height: 90vh;
+}
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:blue;
+}
+.typed-text{
+  font-size: large;
+  color: white;
+}
+.btn-main-offer{
+border: 1px solid red ;
+text-transform: uppercase;
+border-radius: 4px;
+padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+color: white;
+margin: 2rem;
+}
+

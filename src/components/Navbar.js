@@ -3,8 +3,8 @@ import logo from '../logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className='container-fluid'>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" >
+      <div className='container-fluid' >
         <a className="navbar-brand" href="#">
           <img src={logo} className="img-fluid rounded-circle" alt="logo" style={{ width: '100px', height: '100px' }} />
         </a>
